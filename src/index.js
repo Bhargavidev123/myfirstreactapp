@@ -254,13 +254,13 @@ root.render(
     {/* <Cards/> */}
     {/* <Parent/> */}
     {/* <CondRend/> */}
-    {/* <Counter/> */}
+    <Counter/>
     {/* <Toggle/> */}
     {/* <SampleForm/> */}
     {/* <Sampleform/> */}
     {/* <Even/> */}
     {/* <Fresher/> */}
-    {data.map((a, b) => {
+    {/* {data.map((a, b) => {
           return (
             // <div key={b}>
             <Accordian
@@ -270,7 +270,7 @@ root.render(
           
             />
           );
-        })}
+        })} */}
 
     {/* {data.map((a, b) => {
           return (
