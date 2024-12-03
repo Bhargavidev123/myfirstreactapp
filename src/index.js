@@ -1,23 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Home from './home/homeComp';
-// import Sample from './SampleComp';
-// import Main from './maincomp';
-// import Accordian from './uiContent/bs-accordian/accordianComp';
-// import CondRend from './uiContent/conditionalrendering/condRend';
+import Home from './home/homeComp';
+import Sample from './SampleComp';
+import Main from './maincomp';
+import Accordian from './uiContent/bs-accordian/accordianComp';
+import CondRend from './uiContent/conditionalrendering/condRend';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Cards from './bootstrap/card';
-// import Parent from './uiContent/Parentcomp/parentComp';
-// import Counter from './uiContent/counter/counter';
-// import Toggle from './uiContent/toggleSwitch/toggleSwitch';
+import Cards from './bootstrap/card';
+import Parent from './uiContent/Parentcomp/parentComp';
+import Counter from './uiContent/counter/counter';
+import Toggle from './uiContent/toggleSwitch/toggleSwitch';
 // import CondRend from './uiContent/conditionalrendering/condRend';
 // import Accordian from './uiContent/bs-accordian/accordianComp';
-// import SampleForm from './uiContent/sampleform/sampleform';
-// import Sampleform from './sampleForm/sampleForm';
-// import Even from './evenform/evenForm';
+import SampleForm from './uiContent/sampleform/sampleform';
+import Sampleform from './sampleForm/sampleForm';
+import Even from './evenform/evenForm';
 import Fresher from './portfolio/resume';
 
 // const data=[
@@ -245,7 +245,7 @@ root.render(
 
     }}> */}
 
-    {/* <App /> */}
+    <App />
     {/* <Home/> */}
     {/* <Main/> */}
     {/* <Sample/> */}
