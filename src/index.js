@@ -257,8 +257,8 @@ root.render(
     {/* <Counter/> */}
     {/* <Toggle/> */}
     {/* <SampleForm/> */}
-    <Sampleform/>
-    {/* <Even/> */}
+    {/* <Sampleform/> */}
+    <Even/>
     {/* <Fresher/> */}
     {/* {data.map((a, b) => {
           return (
