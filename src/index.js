@@ -254,10 +254,10 @@ root.render(
     {/* <Cards/> */}
     {/* <Parent/> */}
     {/* <CondRend/> */}
-    <Counter/>
+    {/* <Counter/> */}
     {/* <Toggle/> */}
     {/* <SampleForm/> */}
-    {/* <Sampleform/> */}
+    <Sampleform/>
     {/* <Even/> */}
     {/* <Fresher/> */}
     {/* {data.map((a, b) => {
