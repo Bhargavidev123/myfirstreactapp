@@ -235,15 +235,15 @@ const data=[
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div
-    style={{
-      display:"flex",
-      flexWrap:"wrap",
-      gap:"10px",
-      justifyContent:"center",
-      alignContent:"center"
+    {/* <div */}
+    {/* // style={{ */}
+    {/* //   display:"flex",
+    //   flexWrap:"wrap",
+    //   gap:"10px",
+    //   justifyContent:"center",
+    //   alignContent:"center" */}
 
-    }}>
+    {/* // }}> */}
 
     {/* <App /> */}
     {/* <Home/> */}
@@ -266,6 +266,7 @@ root.render(
             <Accordian
              title={a.id}
              img={a.image}
+
           
             />
           );
@@ -280,7 +281,7 @@ root.render(
             /></div>
           );
         })} */}
-        </div> 
+        {/* </div>  */}
 
     
   </React.StrictMode>
