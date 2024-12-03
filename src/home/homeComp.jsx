@@ -219,12 +219,12 @@ class Home extends Component {
   render() {
     return (
       <div
-        // style={{
-        //   display: "flex",
-        //   flexDirection: "column",
-        //   justifyContent: "center",
-        //   alignItems: "center",
-        // }}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         {/* <ProfileCard name="bhargavi" city="hyd"  role="developer"/>
        <ProfileCard name="sowmya" city="hyd" role="developer"/>
