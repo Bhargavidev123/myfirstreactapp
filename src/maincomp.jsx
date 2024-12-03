@@ -12,11 +12,11 @@ const products=[{
 }
 ];
 
-const obj={
-    productName:"mobile",
-    productPrice:55000,
-    productAvailability:true
-}
+// const obj={
+//     productName:"mobile",
+//     productPrice:55000,
+//     productAvailability:true
+// }
 
 class Main extends Component{
     render(){
@@ -26,21 +26,21 @@ class Main extends Component{
 
 
             <div className="mainbox">
-                <div className={products[0].productAvailability?"available":"unavailable"}>
+                <div className={products[0].productAvailability?styles.available:styles.unavailable}>
                     <h1>{products[0].productName}</h1>
                    <h1> {products[0].productPrice}</h1>
                 </div>
                 <div className={products[1].productAvailability?"available":"unavailable"}>
                <h1> {products[1].productName}</h1>
                <h1>{products[1].productPrice}</h1>
-                </div>
+                </div> 
 
             </div>
             </>
         )
     }
 }
-const style={
+const styles={
     available:{color:"green"},
     unavailable:{color:"red"}
 }
