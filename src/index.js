@@ -260,17 +260,18 @@ root.render(
     {/* <Sampleform/> */}
     {/* <Even/> */}
     {/* <Fresher/> */}
-    {/* {data.map((a, b) => {
+    {data.map((a, b) => {
           return (
             // <div key={b}>
             <Accordian
              title={a.id}
              img={a.image}
+          
             />
           );
-        })} */}
+        })}
 
-    {data.map((a, b) => {
+    {/* {data.map((a, b) => {
           return (
             <div key={b}>
             <Cards
@@ -278,7 +279,7 @@ root.render(
              
             /></div>
           );
-        })}
+        })} */}
         </div> 
 
     
