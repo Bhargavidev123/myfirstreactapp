@@ -10,14 +10,17 @@ function Bstable(props) {
           <th>Description</th>
           <th>Image</th>
           <th>Category</th>
+          <th>Rating</th>
         </tr>
       </thead>
       <tbody>
+        
         <tr>
           <td>{props.title}</td>
           <td >{props.desc}</td>
           <td><img src={props.img} alt='img' style={{height:"50px",width:"50px"}}/></td>
           <td>{props.cat}</td>
+          <td>{props.rate}</td>
         </tr>
       </tbody>
     </Table>

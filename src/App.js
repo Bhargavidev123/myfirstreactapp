@@ -230,8 +230,15 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <FunLifeCycle/>
+      {/* <FunLifeCycle/> */}
       {/* <Bstable title={data.title} desc={data.description} img={data.image} cat={data.category}/> */}
+      {data.map((a,b)=>{
+        return(
+          <div key={b}>
+            <Bstable title={a.title} desc={a.description} img={a.image} cat={a.category} rate={a.rating.rate}/>
+          </div>
+        )
+      })}
       <div>
         {/* <Todo /> */}
       </div>
