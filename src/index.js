@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './home/homeComp';
 import Sample from './SampleComp';
@@ -245,12 +245,12 @@ root.render(
 
     {/* // }}> */}
 
-    {/* <App /> */}
+    <App/>
     {/* <Home/> */}
     {/* <Main/> */}
     {/* <Sample/> */}
     {/* <Accordian/> */}
-    {/* <CondRend/> */}
+  
     {/* <Cards/> */}
     {/* <Parent/> */}
     {/* <CondRend/> */}
@@ -258,19 +258,19 @@ root.render(
     {/* <Toggle/> */}
     {/* <SampleForm/> */}
     {/* <Sampleform/> */}
-    <Even/>
+    {/* <Even/> */}
     {/* <Fresher/> */}
-    {/* {data.map((a, b) => {
+     {/* {data.map((a, b) => {
           return (
             // <div key={b}>
             <Accordian
              title={a.id}
-             img={a.image}
+             img={a.image} */}
 
           
-            />
+            {/* />
           );
-        })} */}
+        })}  */} 
 
     {/* {data.map((a, b) => {
           return (
