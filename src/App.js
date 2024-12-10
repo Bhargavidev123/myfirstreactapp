@@ -4,6 +4,7 @@ import FunLifeCycle from "./uiContent/lifecycle/function";
 import Bstable from "./uiContent/tables/table";
 import Todo from "./uiContent/todo/index";
 import TodoApp from "./uiContent/todo/index";
+import Sample from "./SampleComp";
 
 const data = [
   {
@@ -243,6 +244,7 @@ function App() {
       <div>
       <FunLifeCycle/>
         <Todo/>
+        <Sample/>
         
       </div>
     </div>
