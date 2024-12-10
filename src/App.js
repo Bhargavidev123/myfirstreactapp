@@ -231,7 +231,7 @@ function App() {
         </a>
       </header> */}
       {/* <FunLifeCycle/> */}
-      {/* <Bstable title={data.title} desc={data.description} img={data.image} cat={data.category}/> */}
+     
       {data.map((a,b)=>{
         return(
           <div key={b}>

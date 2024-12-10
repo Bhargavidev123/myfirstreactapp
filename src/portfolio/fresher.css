@@ -1,6 +1,6 @@
 .fresher{
     border:2px solid solid orange;
- /* height:30vh; */
+ 
     width:100vw;
     height: 20vh;
     background-color: rgb(224, 118, 152);
@@ -9,8 +9,7 @@
 .fresher1{
     background-color:black;
     
-    /* height: 50px; */
-    /* margin-top: -2vw; */
+   
 
 }
 .fresher2{
@@ -58,7 +57,7 @@ flex-wrap:wrap;
     margin-top: -10vh;
     padding: 20px;
     font-size: 20px;
-    /* padding-top: -10vh; */
+   
 }
 .fresher9{
     padding-left:5vw;
@@ -67,24 +66,7 @@ flex-wrap:wrap;
 .fresher10{
     padding-left:3vw;
 }
-/* .fresher11{
-    background-color: rgb(210, 208, 205);
-    width:80vw;
-    margin-left: 10vw;
-    margin-top: 2vh;
-    border-radius: 10px 10px 10px;  
 
-}
-.fresher12{
-    padding: 20px;
-}
-.fresher13{
-    margin-top: -15vh;
-    padding: 20px;
-}
-.fresher14{
-    font-size:10vh;
-} */
  .fresher12{
     background-color: rgb(198, 224, 248);
     width:80vw; 
@@ -93,3 +75,85 @@ flex-wrap:wrap;
     border-radius: 10px 10px 10px;
     padding: 20px;
  }
+
+ /* Responsive styles for tablets (width between 768px and 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .fresher {
+        height: 15vh;
+    }
+
+    .fresher4 {
+        width: 90vw;
+        margin-left: 5vw;
+        font-size: 18px;
+    }
+
+    .fresher3 {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .fresher7 {
+        font-size: 5vh;
+    }
+
+    .fresher8 {
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .fresher12{
+        width:700px;
+        margin-left:30px;
+    }
+}
+
+/* Responsive styles for mobile (width up to 767px) */
+@media (max-width: 767px) {
+    .fresher {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .fresher2 {
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .fresher3 {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .fresher4 {
+        width: 90vw;
+        margin-left: 5vw;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .fresher5 {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .fresher8 {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .fresher9 {
+        padding-left: 2vw;
+    }
+
+    .fresher10 {
+        padding-left: 2vw;
+        font-size: 18px;
+    }
+
+    .fresher12 {
+        width: 90vw;
+        margin-left: 5vw;
+        font-size: 14px;
+        padding: 10px;
+    }
+}

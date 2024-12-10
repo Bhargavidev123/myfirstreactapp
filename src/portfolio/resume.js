@@ -6,10 +6,7 @@ function Fresher() {
         <h1 style={{ color: "black", paddingTop: "7vh" }}>
           EEGA BHARGAVI
         </h1>
-        {/* <h3 style={{ color: "white", fontSize: "5vh", paddingTop: "-10vh" }}>
-          {" "}
-          Fresher job seekar
-        </h3> */}
+        
       </div>
       <div className="fresher1">
         <div className="fresher2">
@@ -86,17 +83,11 @@ function Fresher() {
         <p className="fresher8">
           <span className="fresher7"> .</span>The aim of the App Landing Project using HTML, CSS &BOOTSTRAP is to create a professional and visually appealing web page that effectively promotes a mobile or web application. </p>
       <span>
-      {/* <p className="fresher8">
-          <span className="fresher7"> .</span>This type of project is great for practicing HTML and CSS skills and understanding how to structure and 
-          style a web application interface. 
-        </p> */}
+     
       </span>
         <h4 className="fresher10"> REDBUS:-</h4>
        
-       {/* <p className="fresher8">
-         <span className="fresher7"> .</span>Creating a WhatsApp clone using HTML and CSS focuses primarily on replicating the visual aspects of the 
-         messaging application. 
-       </p> */}
+       
        <p className="fresher8">
          <span className="fresher7"> .</span> The Online Bus Ticket Booking System is a comprehensive web application designed to provide users with a seamless experience for booking bus tickets. Users can browse available bus services, search for specific routes, and book tickets online
        </p>
@@ -119,10 +110,7 @@ function Fresher() {
 
        <div className="fresher4">
         <h3 className="fresher5" id="raa4"><b>CERTIFICATIONS</b></h3>
-        {/* <p className="fresher8">
-          <span className="fresher7"> .</span> B.Tech in Electronics and
-Certication on full stack web devolopment by html,css & JavaScript
-        </p> */}
+       
         <p className="fresher8">
           <span className="fresher7"> .</span> Introduction to Cyber Security and Essentials of Cyber Security(Cisco Networking Academy) 
         </p>
@@ -131,11 +119,7 @@ Certication on full stack web devolopment by html,css & JavaScript
         </p>
         
 
-        {/* <p className="fresher8">
-          <span className="fresher7"> .</span>Intermediate in
-          Mathematics,physics & chemisry (MPC) from Sri Vikas junior College
-          CGPA:-937 (2018-2020)
-        </p> */}
+        
  </div> 
 
 
