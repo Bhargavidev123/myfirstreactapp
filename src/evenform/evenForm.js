@@ -30,6 +30,7 @@ class Even extends Component {
     render() {
         return (
             <div>
+                <h1>Even(or)Odd</h1>
                 <form onSubmit={this.handsubmit}>
                     <input type="text" name="number" onChange={this.handlechange} />
                     <input type="submit" />

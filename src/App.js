@@ -230,8 +230,8 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
-      
+      </header>
+       */}
      
       {data.map((a,b)=>{
         return(
@@ -242,7 +242,7 @@ function App() {
       })}
       <div>
       <FunLifeCycle/>
-        {/* <Todo /> */}
+        <Todo/>
         
       </div>
     </div>
