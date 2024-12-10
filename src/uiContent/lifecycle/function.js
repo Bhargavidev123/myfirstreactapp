@@ -21,6 +21,9 @@ export default function FunLifeCycle() {
 
   return (
     <div style={{
+      display:"flex",
+      flexDirection:"row",
+      gap:"20px",
         border:"2px solid black",
         height:"50px",
         width:"50px",

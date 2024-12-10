@@ -235,44 +235,65 @@ const data=[
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <div */}
-    {/* // style={{ */}
-    {/* //   display:"flex",
-    //   flexWrap:"wrap",
-    //   gap:"10px",
-    //   justifyContent:"center",
-    //   alignContent:"center" */}
+    <div 
+     style={{ 
+      display:"flex",
+       flexWrap:"wrap",
+       gap:"10px",
+     justifyContent:"center",
+      alignContent:"center",
+      
 
-    {/* // }}> */}
+      }}></div>
 
     <App/>
     {/* <Home/> */}
     {/* <Main/> */}
     {/* <Sample/> */}
-    {/* <Accordian/> */}
+    
   
-    {/* <Cards/> */}
+   
     {/* <Parent/> */}
     {/* <CondRend/> */}
-    {/* <Counter/> */}
+    <Counter/>
     {/* <Toggle/> */}
     {/* <SampleForm/> */}
     {/* <Sampleform/> */}
-    {/* <Even/> */}
-    {/* <Fresher/> */}
-     {/* {data.map((a, b) => {
+    <Even/>
+    <Fresher/>
+    <div 
+     style={{ 
+      display:"flex",
+       flexWrap:"wrap",
+       gap:"10px",
+     justifyContent:"center",
+      alignContent:"center",
+      
+
+      }}>
+     {data.map((a, b) => {
           return (
             // <div key={b}>
             <Accordian
              title={a.id}
-             img={a.image} */}
+             img={a.image}
 
           
-            {/* />
+             />
           );
-        })}  */} 
+        })}</div>
+        <div 
+     style={{ 
+      display:"flex",
+       flexWrap:"wrap",
+       gap:"10px",
+     justifyContent:"center",
+      alignContent:"center",
+      
 
-    {/* {data.map((a, b) => {
+      }}>
+
+    {data.map((a, b) => {
           return (
             <div key={b}>
             <Cards
@@ -280,8 +301,8 @@ root.render(
              
             /></div>
           );
-        })} */}
-        {/* </div>  */}
+        })}</div>
+       
 
     
   </React.StrictMode>

@@ -6,6 +6,7 @@ import React, { Component } from "react";
 
 
 
+
 const data = [
   {
     id: 1,
@@ -217,15 +218,8 @@ const data = [
 
 class Home extends Component {
   render() {
-    return (
-      <div
-        // style={{
-        //   display: "flex",
-        //   flexDirection: "column",
-        //   justifyContent: "center",
-        //   alignItems: "center",
-        // }}
-      >
+    return (<>
+     
         {/* <ProfileCard name="bhargavi" city="hyd"  role="developer"/>
        <ProfileCard name="sowmya" city="hyd" role="developer"/>
        <ProfileCard name="kalyani" city="hyd" role="developer"/>
@@ -240,18 +234,20 @@ class Home extends Component {
            <h2>vivo</h2>
          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum consectetur ex veritatis. Officia tenetur cum earum doloremque excepturi labore est! Fugit nulla cum, maxime eveniet consequuntur recusandae assumenda ipsam non?</p>
         </ProductCard> */}
-        {/* {data.map((a, b) => {
+       {/* data.map((a, b) => {
           return (
             <div key={b}>
             <Cards
              data={a}
+             
             /></div>
           );
         })} */}
 
        
-      </div>
+        
+       </> 
     );
-  }
+  } 
 }
 export default Home;
