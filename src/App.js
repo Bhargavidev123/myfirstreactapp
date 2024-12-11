@@ -5,6 +5,9 @@ import Bstable from "./uiContent/tables/table";
 import Todo from "./uiContent/todo/index";
 import TodoApp from "./uiContent/todo/index";
 import Sample from "./SampleComp";
+import Forms from "./uiContent/formsubmission/form";
+
+
 
 const data = [
   {
@@ -233,7 +236,7 @@ function App() {
         </a>
       </header>
        */}
-     
+       
       {data.map((a,b)=>{
         return(
           <div key={b}>
@@ -241,7 +244,7 @@ function App() {
           </div>
         )
       })}
-      <div>
+    
 
 
 
@@ -260,6 +263,10 @@ function App() {
           <FunLifeCycle/></div>
 
 
+
+         
+
+
        <div style={{
         border:"2px solid black",
         height:"400px",
@@ -269,6 +276,20 @@ function App() {
         gap:"10px",
         justifyContent: "center",
         alignItems: "center",}}> <Todo/></div>
+
+
+
+<div style={{
+        border:"2px solid black",
+        height:"600px",
+        display: "flex",
+        flexDirection: "row",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}>
+        <Forms/>
+        </div>
 
 
        <div style={{
@@ -281,9 +302,9 @@ function App() {
         justifyContent: "center",
         alignItems: "center",}}>
           <h1>Time Table</h1>
-          <Sample/></div> 
-        
-      </div>
+          <Sample/></div>  
+    
+
     </div>
   );
 }

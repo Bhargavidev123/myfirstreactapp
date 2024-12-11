@@ -20,6 +20,7 @@ import Sampleform from './sampleForm/sampleForm';
 import Even from './evenform/evenForm';
 import Fresher from './portfolio/resume';
 
+
 const data=[
 {
   id: 1,
@@ -304,16 +305,15 @@ root.render(
 
 
 
-    <div 
-     style={{ 
-      display:"flex",
-       flexWrap:"wrap",
-       gap:"10px",
-     justifyContent:"center",
-      alignContent:"center",
-      
-
-      }}>
+<div style={{
+        border:"2px solid black",
+        height:"600px",
+        display: "flex",
+        flexDirection: "row",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}>
      {data.map((a, b) => {
           return (
             // <div key={b}>
@@ -328,17 +328,16 @@ root.render(
        
        
        
-        <div 
-     style={{ 
-      display:"flex",
-       flexWrap:"wrap",
-       gap:"10px",
-     justifyContent:"center",
-      alignContent:"center",
       
-
-      }}>
-
+       <div style={{
+        border:"2px solid black",
+        height:"600px",
+        display: "flex",
+        flexDirection: "row",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}>
     {data.map((a, b) => {
           return (
             <div key={b}>
@@ -348,6 +347,9 @@ root.render(
             /></div>
           );
         })}</div>
+
+
+       
        
 
     
