@@ -20,9 +20,11 @@ export default function FunLifeCycle() {
   
 
   return (
+    
     <div style={{
+     
       display:"flex",
-      flexDirection:"row",
+      flexDirection:"column",
       gap:"20px",
         border:"2px solid black",
         height:"50px",
@@ -33,6 +35,7 @@ export default function FunLifeCycle() {
 
 
     }}>
+     
       <h1>{text}</h1>
       <button onClick={handleButton1}>+1</button>
       <button onClick={handleButton2}>+2</button>

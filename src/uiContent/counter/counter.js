@@ -28,6 +28,7 @@ class Counter extends Component{
     render(){
 
         return(<>
+       
          <button onClick={this.handleEvent}>+1</button>
          <button onClick={this.handleEvent1}>-1</button>
          <button onClick={this.handleEvent2}>+2</button>

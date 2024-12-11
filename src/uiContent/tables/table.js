@@ -3,6 +3,8 @@ import Table from 'react-bootstrap/Table';
 
 function Bstable(props) {
   return (
+    
+      
     <Table striped bordered hover size="sm">
       <thead>
         <tr>
@@ -24,6 +26,7 @@ function Bstable(props) {
         </tr>
       </tbody>
     </Table>
+    
   );
 }
 

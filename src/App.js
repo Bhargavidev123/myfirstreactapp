@@ -242,9 +242,46 @@ function App() {
         )
       })}
       <div>
-      <FunLifeCycle/>
-        <Todo/>
-        <Sample/>
+
+
+
+      <div style={{
+        border:"2px solid black",
+        height:"600px",
+        display: "flex",
+        flexDirection: "column",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}>
+           <h3>Counter using Functional Component</h3>
+          
+          
+          <FunLifeCycle/></div>
+
+
+       <div style={{
+        border:"2px solid black",
+        height:"400px",
+        display: "flex",
+        flexDirection: "row",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}> <Todo/></div>
+
+
+       <div style={{
+        border:"2px solid black",
+        height:"400px",
+        display: "flex",
+        flexDirection: "column",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}>
+          <h1>Time Table</h1>
+          <Sample/></div> 
         
       </div>
     </div>

@@ -255,12 +255,55 @@ root.render(
    
     {/* <Parent/> */}
     {/* <CondRend/> */}
-    <Counter/>
+
+
+
+    <div style={{
+        border:"2px solid black",
+        height:"400px",
+        display: "flex",
+        flexDirection: "column",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}> 
+         <h3>Counter using Class Component </h3>
+          <Counter/></div>
+
+
+
     {/* <Toggle/> */}
     {/* <SampleForm/> */}
     {/* <Sampleform/> */}
-    <Even/>
-    <Fresher/>
+
+
+
+   <div style={{
+        border:"2px solid black",
+        height:"400px",
+        display: "flex",
+        flexDirection: "row",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}>
+          
+          <Even/></div>
+
+
+
+    <div style={{
+        border:"2px solid black",
+        height:"3000px",
+        display: "flex",
+        flexDirection: "row",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}><Fresher/></div>
+
+
+
     <div 
      style={{ 
       display:"flex",
@@ -282,6 +325,9 @@ root.render(
              />
           );
         })}</div>
+       
+       
+       
         <div 
      style={{ 
       display:"flex",
