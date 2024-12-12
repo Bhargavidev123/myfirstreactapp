@@ -6,6 +6,7 @@ import Todo from "./uiContent/todo/index";
 import TodoApp from "./uiContent/todo/index";
 import Sample from "./SampleComp";
 import Forms from "./uiContent/formsubmission/form";
+import UpdatingPhase from "./uiContent/spinner/spinners";
 
 
 
@@ -292,6 +293,23 @@ function App() {
         </div>
 
 
+
+        <div style={{
+        border:"2px solid black",
+        height:"400px",
+        display: "flex",
+        flexDirection: "column",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}>
+          <h1>Spinner</h1>
+
+        <UpdatingPhase/></div>
+
+
+
+
        <div style={{
         border:"2px solid black",
         height:"400px",
@@ -303,6 +321,8 @@ function App() {
         alignItems: "center",}}>
           <h1>Time Table</h1>
           <Sample/></div>  
+
+         
     
 
     </div>
