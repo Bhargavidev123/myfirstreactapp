@@ -7,6 +7,7 @@ import TodoApp from "./uiContent/todo/index";
 import Sample from "./SampleComp";
 import Forms from "./uiContent/formsubmission/form";
 import UpdatingPhase from "./uiContent/spinner/spinners";
+import Buttoncard from "./uiContent/updatingphase/buttoncard";
 
 
 
@@ -320,7 +321,21 @@ function App() {
         justifyContent: "center",
         alignItems: "center",}}>
           <h1>Time Table</h1>
-          <Sample/></div>  
+          <Sample/></div> 
+
+
+
+          <div style={{
+        border:"2px solid black",
+        // height:"400px",
+        display: "flex",
+        flexDirection: "column",
+        flexWrap:"wrap",
+        gap:"10px",
+        justifyContent: "center",
+        alignItems: "center",}}>
+          <h1>To show the card as per the button</h1>
+          <Buttoncard/></div>
 
          
     

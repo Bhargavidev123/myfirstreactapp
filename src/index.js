@@ -19,6 +19,7 @@ import SampleForm from './uiContent/sampleform/sampleform';
 import Sampleform from './sampleForm/sampleForm';
 import Even from './evenform/evenForm';
 import Fresher from './portfolio/resume';
+import DisplayCards from './uiContent/buttoncards/Displaycard';
 
 
 const data=[
@@ -341,7 +342,7 @@ root.render(
     {data.map((a, b) => {
           return (
             <div key={b}>
-            <Cards
+            <DisplayCards
              data={a}
              
             /></div>

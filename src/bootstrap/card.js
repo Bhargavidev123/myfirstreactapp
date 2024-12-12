@@ -5,15 +5,15 @@ import React from 'react';
 function Cards(props) {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={props.data.image} style={{height:"100px"}}/>
+      <Card.Img variant="top" src={props.img} style={{height:"100px"}}/>
       <Card.Body style={{height:"150px",overflowY:"scroll"}}>
-        <Card.Title>{props.data.title}</Card.Title>
+        <Card.Title>{props.title}</Card.Title>
         <Card.Text>
-          {props.data.description}
+          {props.desc}
         </Card.Text>
         
       </Card.Body>
-      <Card.Footer className="text-muted"><Button variant="primary">{props.data.category}</Button></Card.Footer>
+      <Card.Footer className="text-muted"><Button variant="primary">{props.info}</Button></Card.Footer>
     </Card>
   );
 }
